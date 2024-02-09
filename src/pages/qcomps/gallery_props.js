@@ -1,3 +1,15 @@
+function Profile({scientist, size = 100}) {
+  return (
+    <img
+      className="description"
+      profession={person.profession}
+      awards = {person.awards}
+      discovered = {person.discovered}
+    />
+  );
+}
+
+
 export default function Gallery() {
   return (
     <div>
