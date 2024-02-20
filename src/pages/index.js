@@ -3,12 +3,12 @@
 // import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import Profile from './components/profile'
-import Thank from './qcomps/thankYouCrash'
+import BucketList from './qcomps/arrObj'
 
 export default function Home() {
   return (
     <div className={styles.main}>
-        <Thank />
+        <BucketList />
     </div>
   )
 }
